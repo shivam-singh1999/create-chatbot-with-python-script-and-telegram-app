@@ -2,7 +2,7 @@ import time, datetime
 import telepot
 from telepot.loop import MessageLoop
 
-check
+
 def action(msg):
     chat_id = msg['chat']['id']
     command = msg['text'] #to get the only text of the message
